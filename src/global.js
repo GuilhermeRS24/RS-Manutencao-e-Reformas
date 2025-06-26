@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   a:hover {
-    color: #f00;
+    font-size: 22px;
   }
 
   * {
