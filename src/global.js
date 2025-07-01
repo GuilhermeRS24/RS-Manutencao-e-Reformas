@@ -5,10 +5,13 @@ export default createGlobalStyle`
       a {
     text-decoration: none;
     color: inherit;
+    background-color: #ffd426;
+
   }
 
   a:hover {
     font-size: 22px;
+    background-color:rgb(224, 180, 1);
   }
 
   * {
