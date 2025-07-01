@@ -11,8 +11,10 @@ function App() {
   const icon = {
     display:'flex',
     flexDirection:'column',
-    alignItems:'center'
+    alignItems:'center',
+    backgroundColor:'#00008b',
   }
+
 
   const lista = {
     margin:'20px'
@@ -52,13 +54,12 @@ function App() {
               </p>
               <p>&nbsp;| Email: rs.ManuntençãoReformas | Instagram: @RS_ManuntençãoReformas</p>
             </div>  
-          </div>
-           
-            <a href="https://wa.me/5547999746021?text=Olá" target="_blank" rel="noopener noreferrer">
+          </div>              
+            <a href="https://wa.me/5547999746021?text=Olá" target="_blank" rel="noopener noreferrer" style={{backgroundColor:'darkblue'}}>
                 <img src={images.menuhamburguer} className='menuhamburguer' alt='menu' style={{
               width:'100%',
               height: '40%',
-              objectFit: 'cover'
+              objectFit: 'cover',
             }}/>
               </a>
         </Header>
@@ -94,7 +95,7 @@ function App() {
         <h1 style={{fontSize:'38px', color:'#00008b'}}>Chama que eu resolvo</h1>
         </div>
         <a href="https://wa.me/5547999746021?text=Estou interessado na Alvenaria" target="_blank" rel="noopener noreferrer"
-            style={{margin:'40px',width:'400px',height:'50px' , fontSize:'34px', backgroundColor:'#ffd426', color:'#00008b', borderRadius:'5px',boxShadow:'inset 0 0 0 2px #1c4c32', display:'flex',alignItems:'center',justifyContent:'center'}}>
+            style={{margin:'40px',width:'400px',height:'50px' , fontSize:'34px',  color:'#00008b', borderRadius:'5px',boxShadow:'inset 0 0 0 2px #000000', display:'flex',alignItems:'center',justifyContent:'center'}}>
             Entrar em contato
         </a>
         
@@ -496,10 +497,10 @@ function App() {
               <h1>
                 Contatos:
               </h1>
-              <a href="https://wa.me/5547999746021?text=Olá" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547999746021?text=Olá" target="_blank" rel="noopener noreferrer" style={{backgroundColor:'rgb(1, 1, 68)'}}>
                 <img src={images.whatsapp}/>
               </a>
-              <a href='https://www.facebook.com/cleciorenators?locale=pt_BR' target='_blank' rel="noopener noreferrer">
+              <a href='https://www.facebook.com/cleciorenators?locale=pt_BR' target='_blank' rel="noopener noreferrer" style={{backgroundColor:'rgb(1, 1, 68)'}}>
                 <img src={images.facebook}/>
               </a>
             </div>
