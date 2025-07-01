@@ -25,7 +25,7 @@ export const Header = styled.div `
 export const Main = styled.div `
     border-radius: 10px;
     width: 1000px;
-    height: 100vh;
+    height: auto;
     background-color: #00008b;
     color: #f6f6f6;
 
@@ -44,10 +44,9 @@ export const Paragrafo  = styled.div `
 export const Footer = styled.div `
     width: 100%;
     height: 20vh;
-    background-color: #1c4c32;
+    background-color:rgb(1, 1, 68);
     color: #f6f6f6;
     display:flex;
     justify-content: space-around;
     align-items:center;
 `
-
